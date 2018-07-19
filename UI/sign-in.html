@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SIGN IN</title>
+<style>
+body{background-image:url("");
+position:relative;
+     font-size:20px;
+	 font-family:courier;
+}
+
+form{text-align:center;
+top:50%;
+bottom:50%;
+margin-left:auto;
+margin-right:auto;
+margin-top:200px;
+padding:10px;
+background-image:url("book.jpg");
+background-repeat:repeat-x;
+}
+input[type=text],input[type=email],input[type=password]
+{
+    display:inline-block;
+    border:none;
+    padding:10px;
+	margin:auto;
+	max-width:200px;
+	max-height:200px;}
+</style>
+</head>
+<body>
+<form>
+<div id="myform">
+
+<legend>SIGN IN</legend><br><br>
+
+<label for ="username"><b>Username</b></label><br>
+<input type="text" placeholder="Enter your username" name="username" required><br><br>
+<label for="password"><b>Password</b></label><br>
+<input type="password" placeholder="Enter your password" name="password" required><br><br>
+<br>
+<button type="submit">Sign in</button>
+
+</div>
+<div id="last">
+<p>Not registered.<a href="sign-up.html">Click here</a><p>
+
+</div>
+</form>
+</body>
+</html>
